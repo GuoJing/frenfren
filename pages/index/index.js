@@ -26,7 +26,6 @@ Page({
     })
   },
   data: {
-    avatarBg: '#f2f6f9',
-    avatarImg: 'http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-01-C.PNG'
+    avatarBg: '#f2f6f9'
   }
 });
