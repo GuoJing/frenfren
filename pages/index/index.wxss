@@ -1,8 +1,121 @@
-.container {
+.main {
   font-size: 14px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .message {
+  margin-top: 10px; 
+  text-align: center;
+}
 
+.select {
+  margin-top: 10px;
+}
+
+.container {
+  margin: 0px auto;
+  margin-bottom: 10px;
+}
+
+.container .avatar {
+  margin: 0px auto;
+  width: 200px;
+  height: 200px;
+}
+
+.container .avatar image, .avatar_container {
+  width: 200px;
+  height: 200px;
+}
+
+.avatarimg {
+  position: absolute;
+}
+.avatarenv {
+  position: absolute;
+}
+.avatarextra {
+  position: absolute;
+}
+
+.avatar_grids {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.bg_grid {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.bg_grid image {
+  width: 50px;
+  height: 50px;
+}
+
+.gen {
+  margin: 10px;
+  font-size: 12px;
+}
+
+.gen button {
+  font-size: 14px;
+  border: none;
+  background: #64c37d;
+  color: white;
+}
+
+.color1 {
+  background: #e6fff1;
+}
+
+.color2 {
+  background: #e6faff;
+}
+
+.color3 {
+  background: #f4e6ff;
+}
+
+.color4 {
+  background: #ffffe6;
+}
+
+.color5 {
+  background: #ffebe6;
+}
+
+.color6 {
+  background: #f1f8ff;
+}
+
+.color7 {
+  background: #64c37d;
+}
+
+.color8 {
+  background: #6486c3;
+}
+
+.color9 {
+  background: #8d64c3;
+}
+
+.color10 {
+  background: #c3648b;
+}
+
+.color11 {
+  background: #fb6932;
+}
+
+.color12 {
+  background: #ff4812;
+}
+
+.env1 {
+  background: gray;
 }
