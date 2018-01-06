@@ -12,7 +12,7 @@
 
 <view class='selection'>
 <view class="message"> {{message}} </view>
-<view class='select'>请选择背景颜色: </view>
+<view class='select'>点击选择小背景: </view>
 
 <view class='avatar_grids'>
   <view class='bg_grid color1' bindtap='fillBg' data-color="#e6fff1"></view>
@@ -32,63 +32,68 @@
   <view class='bg_grid color15' bindtap='fillBg' data-color="#984b8d"></view>
 </view>
 
-<view class='select'>请选择小图案: </view>
+<view class='select'>点击选择小图案: </view>
 
 <view class='avatar_grids'>
   <view class='bg_grid av1'>
-  <image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-01-C.PNG' bindtap='fillAvatar' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-01-C.PNG'></image>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/a1.PNG' bindtap='fillAvatar' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/a1.PNG'></image>
   </view>
   <view class='bg_grid av2' bindtap='fillAvatar'>
-  <image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-03.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-03.PNG'></image>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/a2.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/a2.PNG'></image>
   </view>
   <view class='bg_grid av4' bindtap='fillAvatar'>
-  <image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-04.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-04.PNG'></image>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/a3.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/a3.PNG'></image>
   </view>
   <view class='bg_grid av3' bindtap='fillAvatar'>
-  <image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-05.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-05.PNG'></image>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/a4.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/a4.PNG'></image>
   </view>
-  <view class='bg_grid av5' bindtap='fillAvatar' data-src=''></view>
-  <view class='bg_grid av6' bindtap='fillAvatar' data-src=''></view>
-  <view class='bg_grid av7' bindtap='fillAvatar' data-src=''></view>
-  <view class='bg_grid av8' bindtap='fillAvatar' data-src=''></view>
-  <view class='bg_grid av9' bindtap='fillAvatar' data-src=''></view>
-  <view class='bg_grid av10'></view>
+  <view class='bg_grid av5' bindtap='fillAvatar'>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/a5.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/a5.PNG'></image>
+  </view>
+  <view class='bg_grid av6' bindtap='fillAvatar'>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/a6.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/a6.PNG'></image></view>
+  <view class='bg_grid av7' bindtap='fillAvatar'>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/m1.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/m1.PNG'></image></view>
+  <view class='bg_grid av8' bindtap='fillAvatar'>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/m2.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/m2.PNG'></image>
+  </view>
+  <view class='bg_grid av9' bindtap='fillAvatar'>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/m3.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/m3.PNG'></image></view>
+  <view class='bg_grid av10' bindtap='fillAvatar'>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/l1.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/l1.PNG'></image></view>
 </view>
 
-<view class='select'>请选择小环境: </view>
+<view class='select'>点击选择小环境: </view>
 
 <view class='avatar_grids'>
-  <view class='bg_grid env1'><image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/env/2017-ENV-01.PNG' bindtap='fillEnv' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/env/2017-ENV-01.PNG'></image></view>
+  <view class='bg_grid env1'><image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/e1.PNG' bindtap='fillEnv' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/e1.PNG'></image></view>
   <view class='bg_grid env1' bindtap='fillEnv'>
-    <image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/env/2017-ENV-02.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/env/2017-ENV-02.PNG'></image>
-  </view>
-  <view class='bg_grid env1' src='' bindtap='fillEnv'>
-  <image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/env/2017-ENV-03.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/env/2017-ENV-03.PNG'></image>
+    <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/e2.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/e2.PNG'></image>
   </view>
   <view class='bg_grid env1' bindtap='fillEnv'>
-  <image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/env/2017-ENV-04.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/env/2017-ENV-04.PNG'></image>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/e5.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/e5.PNG'></image>
   </view>
-  <view class='bg_grid env5' bindtap='fillEnv' data-src=''></view>
-  <view class='bg_grid env6' bindtap='fillEnv' data-src=''></view>
-  <view class='bg_grid env7' bindtap='fillEnv' data-src=''></view>
-  <view class='bg_grid env8' bindtap='fillEnv' data-src=''></view>
-  <view class='bg_grid env9' bindtap='fillEnv' data-src=''></view>
-  <view class='bg_grid env10'></view>
+  <view class='bg_grid env1' bindtap='fillEnv'>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/e4.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/e4.PNG'></image>
+  </view>
+  <view class='bg_grid env5' bindtap='fillEnv' data-src=''>取消</view>
 </view>
 
-<view class='select'>请选择小附件: </view>
+<view class='select'>点击选择小附件: </view>
 
 <view class='avatar_grids'>
-  <view class='bg_grid ext1'><image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/extra/2017-EXTRA-01.PNG' bindtap='fillExtra' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/extra/2017-EXTRA-01.PNG'></image></view>
-  <view class='bg_grid ext2' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext3' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext4' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext5' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext6' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext7' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext8' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext9' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext10'></view>
+  <view class='bg_grid ext1'>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/ex1.PNG' bindtap='fillExtra' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/ex1.PNG'></image>
+  </view>
+  <view class='bg_grid ext2'>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/ex4.PNG' bindtap='fillExtra' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/ex4.PNG'></image>
+  </view>
+  <view class='bg_grid ext3'>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/ex5.PNG' bindtap='fillExtra' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/ex5.PNG'></image>
+  </view>
+  <view class='bg_grid ext4' bindtap='fillExtra' data-src=''>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/ex6.PNG' bindtap='fillExtra' data-src='http://7xll9d.com1.z0.glb.clouddn.com/weapp/avatar/ex6.PNG'></image></view>
+  <view class='bg_grid ext5' bindtap='fillExtra' data-src=''>取消</view>
 </view>
 
 </view>
