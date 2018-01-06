@@ -36,14 +36,20 @@
   <view class='bg_grid av1'>
   <image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-01-C.PNG' bindtap='fillAvatar' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-01-C.PNG'></image>
   </view>
-  <view class='bg_grid av2' src='' bindtap='fillAvatar' data-src=''></view>
-  <view class='bg_grid av3' src='' bindtap='fillAvatar' data-src=''></view>
-  <view class='bg_grid av4' src='' bindtap='fillAvatar' data-src=''></view>
-  <view class='bg_grid av5' src='' bindtap='fillAvatar' data-src=''></view>
-  <view class='bg_grid av6' src='' bindtap='fillAvatar' data-src=''></view>
-  <view class='bg_grid av7' src='' bindtap='fillAvatar' data-src=''></view>
-  <view class='bg_grid av8' src='' bindtap='fillAvatar' data-src=''></view>
-  <view class='bg_grid av9' src='' bindtap='fillAvatar' data-src=''></view>
+  <view class='bg_grid av2' bindtap='fillAvatar'>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-03.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-03.PNG'></image>
+  </view>
+  <view class='bg_grid av4' bindtap='fillAvatar'>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-04.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/2017-Q1-04.PNG'></image>
+  </view>
+  <view class='bg_grid av3' bindtap='fillAvatar'>
+  <image src='' data-src=''></image>
+  </view>
+  <view class='bg_grid av5' bindtap='fillAvatar'></view>
+  <view class='bg_grid av6' bindtap='fillAvatar'></view>
+  <view class='bg_grid av7' bindtap='fillAvatar'></view>
+  <view class='bg_grid av8' bindtap='fillAvatar'></view>
+  <view class='bg_grid av9' bindtap='fillAvatar'></view>
   <view class='bg_grid av10'></view>
 </view>
 
@@ -51,14 +57,18 @@
 
 <view class='avatar_grids'>
   <view class='bg_grid env1'><image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/env/2017-ENV-01.PNG' bindtap='fillEnv' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/env/2017-ENV-01.PNG'></image></view>
-  <view class='bg_grid env2' src='' bindtap='fillEnv' data-src=''></view>
-  <view class='bg_grid env3' src='' bindtap='fillEnv' data-src=''></view>
-  <view class='bg_grid env4' src='' bindtap='fillEnv' data-src=''></view>
-  <view class='bg_grid env5' src='' bindtap='fillEnv' data-src=''></view>
-  <view class='bg_grid env6' src='' bindtap='fillEnv' data-src=''></view>
-  <view class='bg_grid env7' src='' bindtap='fillEnv' data-src=''></view>
-  <view class='bg_grid env8' src='' bindtap='fillEnv' data-src=''></view>
-  <view class='bg_grid env9' src='' bindtap='fillEnv' data-src=''></view>
+  <view class='bg_grid env1' bindtap='fillEnv'>
+    <image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/env/2017-ENV-02.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/env/2017-ENV-02.PNG'></image>
+  </view>
+  <view class='bg_grid env1' src='' bindtap='fillEnv'>
+  <image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/env/2017-ENV-03.PNG' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/env/2017-ENV-03.PNG'></image>
+  </view>
+  <view class='bg_grid env4' bindtap='fillEnv'></view>
+  <view class='bg_grid env5' bindtap='fillEnv'></view>
+  <view class='bg_grid env6' bindtap='fillEnv'></view>
+  <view class='bg_grid env7' bindtap='fillEnv'></view>
+  <view class='bg_grid env8' bindtap='fillEnv'></view>
+  <view class='bg_grid env9' bindtap='fillEnv'></view>
   <view class='bg_grid env10'></view>
 </view>
 
@@ -66,14 +76,14 @@
 
 <view class='avatar_grids'>
   <view class='bg_grid ext1'><image src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/extra/2017-EXTRA-01.PNG' bindtap='fillExtra' data-src='http://7xll9d.com1.z0.glb.clouddn.com/wechat/app/extra/2017-EXTRA-01.PNG'></image></view>
-  <view class='bg_grid ext2' src='' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext3' src='' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext4' src='' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext5' src='' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext6' src='' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext7' src='' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext8' src='' bindtap='fillExtra' data-src=''></view>
-  <view class='bg_grid ext9' src='' bindtap='fillExtra' data-src=''></view>
+  <view class='bg_grid ext2' bindtap='fillExtra'></view>
+  <view class='bg_grid ext3' bindtap='fillExtra'></view>
+  <view class='bg_grid ext4' bindtap='fillExtra'></view>
+  <view class='bg_grid ext5' bindtap='fillExtra'></view>
+  <view class='bg_grid ext6' bindtap='fillExtra'></view>
+  <view class='bg_grid ext7' bindtap='fillExtra'></view>
+  <view class='bg_grid ext8' bindtap='fillExtra'></view>
+  <view class='bg_grid ext9' bindtap='fillExtra'></view>
   <view class='bg_grid ext10'></view>
 </view>
 

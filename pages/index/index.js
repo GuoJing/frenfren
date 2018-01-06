@@ -9,6 +9,7 @@ Page({
   },
   fillAvatar: function(event) {
     var src = event.target.dataset.src;
+    console.log(src);
     this.setData({
       avatarImg: src
     })
