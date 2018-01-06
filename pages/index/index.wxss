@@ -4,7 +4,6 @@
 }
 
 .message {
-  margin-top: 10px; 
   text-align: center;
 }
 
@@ -14,18 +13,30 @@
 
 .container {
   margin: 0px auto;
-  margin-bottom: 10px;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  background: white;
+  border-bottom: 20px solid white;
 }
 
 .container .avatar {
   margin: 0px auto;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 }
 
 .container .avatar image, .avatar_container {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
+}
+
+.avatar_container {
+  margin-left: -10px;
+}
+
+.selection {
+  margin-top:320px;
 }
 
 .avatarimg {
@@ -114,6 +125,18 @@
 
 .color12 {
   background: #ff4812;
+}
+
+.color13 {
+  background: #888;
+}
+
+.color14 {
+  background: #7de039;
+}
+
+.color15 {
+  background: #984b8d;
 }
 
 .env1 {

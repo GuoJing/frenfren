@@ -9,7 +9,6 @@ Page({
   },
   fillAvatar: function(event) {
     var src = event.target.dataset.src;
-    console.log(src);
     this.setData({
       avatarImg: src
     })
@@ -27,6 +26,7 @@ Page({
     })
   },
   data: {
-    avatarBg: '#f2f6f9'
+    avatarBg: '#f2f6f9',
+    message: "截图保存头像啊啊啊！"
   }
 });
